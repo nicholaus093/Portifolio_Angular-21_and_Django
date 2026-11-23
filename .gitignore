@@ -1,0 +1,16 @@
+# Python / Django
+venv/
+env/
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# OS & Editor files
+.DS_Store
+.vscode/
