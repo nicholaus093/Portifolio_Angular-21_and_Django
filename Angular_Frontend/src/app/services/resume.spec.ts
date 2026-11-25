@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ResumeService } from './resume-service';
+import { Resume } from './resume';
 
-describe('ResumeService', () => {
-  let service: ResumeService;
+describe('Resume', () => {
+  let service: Resume;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ResumeService);
+    service = TestBed.inject(Resume);
   });
 
   it('should be created', () => {
